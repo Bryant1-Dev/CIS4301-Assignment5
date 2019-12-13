@@ -1,0 +1,25 @@
+{
+  "name": "cis4301-assignment5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installAll": "npm install && npm install --prefix backend && npm install --prefix client",
+    "dev": "concurrently \"npm --prefix ./backend run dev\" \"npm --prefix ./client run start \" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryant1-Dev/CIS4301-Assignment5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryant1-Dev/CIS4301-Assignment5/issues"
+  },
+  "homepage": "https://github.com/Bryant1-Dev/CIS4301-Assignment5#readme",
+  "dependencies": {
+    "concurrently": "^5.0.1"
+  }
+}
