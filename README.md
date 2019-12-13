@@ -9,11 +9,20 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 Node.js
-
+Note: The installation process will take several minutes
 ```
 git clone https://github.com/Bryant1-Dev/CIS4301-Assignment5.git
-cd CEN3031-Assignment5
-npm run installAll (Note: This will take several minutes)
+cd CIS4301-Assignment5
+cd backend
+npm install
+cd ..
+
+npm install
+cd backend
+npm install
+cd ../frontend
+npm install
+cd ..
 npm run dev
 ```
 
