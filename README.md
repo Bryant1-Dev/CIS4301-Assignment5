@@ -11,7 +11,7 @@ What things you need to install the software and how to install them
 Node.js
 
 ```
-git clone https://github.com/Bryant1-Dev/CEN3031-Assignment5.git
+git clone https://github.com/Bryant1-Dev/CIS4301-Assignment5.git
 cd CEN3031-Assignment5
 npm run installAll (Note: This will take several minutes)
 npm run dev
