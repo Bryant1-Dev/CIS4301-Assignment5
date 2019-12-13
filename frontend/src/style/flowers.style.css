@@ -1,0 +1,12 @@
+.flowers-container {
+  padding-top: 10vh;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 70vh;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
